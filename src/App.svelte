@@ -1,8 +1,10 @@
 <script>
+	import LogoText from './LogoText.svelte';
 	export let name;
 	export let surname
 </script>
 
+<LogoText comp="svelte" />
 <main>
 	<h1>Hello {name}!</h1>
 	<h1> {surname}</h1>

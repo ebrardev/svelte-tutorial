@@ -18,6 +18,12 @@
     Clicked {count} {count === 1 ? 'time' : 'times'}
 </button>
 
+{#if count % 2 === 0}
+    <p style="background: blue; color:white">{count} is even</p>
+{:else}
+    <p style="background: yellow;"> {count} is odd</p>
+{/if}
+
 <p>
     Bu sayı {doubled} değerindedir.
 </p>

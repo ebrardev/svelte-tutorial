@@ -1,11 +1,13 @@
 <script>
 	import LogoText from './LogoText.svelte';
 	import Counter from './Counter.svelte';
+	import Auth from './Auth.svelte';
 	export let name;
 	export let surname
 </script>
 
 <LogoText comp="svelte" />
+<Auth />
 <Counter />
 <br> <br>
 <main>

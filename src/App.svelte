@@ -2,6 +2,7 @@
 	import LogoText from './LogoText.svelte';
 	import Counter from './Counter.svelte';
 	import Auth from './Auth.svelte';
+	import Todo from './Todo.svelte';
 	export let name;
 	export let surname
 </script>
@@ -9,6 +10,7 @@
 <LogoText comp="svelte" />
 <Auth />
 <Counter />
+<Todo />
 <br> <br>
 <main>
 	<h1>Hello {name}!</h1>
